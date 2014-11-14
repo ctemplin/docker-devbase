@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 RUN apt-get update
 RUN apt-get -y install ruby ruby-dev build-essential git
-RUN apt-get install -y libopenssl-ruby libxslt-dev libxml2-dev
+# RUN apt-get install -y libopenssl-ruby libxslt-dev libxml2-dev
 
 # For debugging
 RUN apt-get install -y gdb strace
