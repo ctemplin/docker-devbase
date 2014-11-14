@@ -1,3 +1,6 @@
+# Usage:
+# > sudo docker run -ti -u ctemplin -v /home/ctemplin:/home/ctemplin devbase
+
 FROM ubuntu:trusty
 RUN apt-get update
 RUN apt-get -y install ruby ruby-dev build-essential git
